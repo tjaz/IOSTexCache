@@ -52,10 +52,10 @@ bool DemoScene::init()
     /////////////////////////////
     // 3. add your codes below...
 
-    // add a label shows "Hello World"
+    // add a label shows "GPGPU test"
     // create and initialize a label
     
-    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
+    CCLabelTTF* pLabel = CCLabelTTF::create("ios GPGPU test \n CPU - GPU", "Arial", 24);
     
     // position the label on the center of the screen
     pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
@@ -63,15 +63,6 @@ bool DemoScene::init()
 
     // add the label as a child to this layer
     this->addChild(pLabel, 1);
-
-//    // add "DemoScene" splash screen"
-//    CCSprite* pSprite = CCSprite::create("DemoScene.png");
-//
-//    // position the sprite on the center of the screen
-//    pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-//
-//    // add the sprite as a child to this layer
-//    this->addChild(pSprite, 0);
     
     PixelRead *pixelRead = new PixelRead;
     pixelRead->init();

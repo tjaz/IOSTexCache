@@ -14,7 +14,6 @@
 		1AFAF8B816D35DE700DB1158 /* DemoScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B516D35DE700DB1158 /* DemoScene.cpp */; };
 		1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B916D35E4900DB1158 /* CloseNormal.png */; };
 		1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */; };
-		1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */; };
 		1AFCDA8216D4A25900906EA6 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCDA8116D4A25900906EA6 /* RootViewController.mm */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -22,7 +21,6 @@
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
 		BE0C91F4181CFD3900223B71 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0C91F3181CFD3900223B71 /* CoreFoundation.framework */; };
 		BE0C91F6181D392C00223B71 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0C91F5181D392C00223B71 /* CoreVideo.framework */; };
-		BE1B978018422CB700818DD2 /* PixelSmile.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1B977F18422CB700818DD2 /* PixelSmile.png */; };
 		BE1B978218422F6900818DD2 /* pixelProcess.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BE1B978118422F6900818DD2 /* pixelProcess.vsh */; };
 		BE1B978418422F8100818DD2 /* pixelProcess.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BE1B978318422F8100818DD2 /* pixelProcess.fsh */; };
 		BE4E6B051905085600F42B84 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE08E9361905079000333457 /* libcocos2dx.a */; };
@@ -76,7 +74,6 @@
 		1AFAF8B616D35DE700DB1158 /* DemoScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoScene.h; path = ../Classes/DemoScene.h; sourceTree = "<group>"; };
 		1AFAF8B916D35E4900DB1158 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
-		1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		1AFCDA8016D4A25900906EA6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = SOURCE_ROOT; };
 		1AFCDA8116D4A25900906EA6 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,7 +86,6 @@
 		BE0C91F1181CFC2F00223B71 /* PixelRead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PixelRead.h; path = ../Classes/PixelRead.h; sourceTree = "<group>"; };
 		BE0C91F3181CFD3900223B71 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		BE0C91F5181D392C00223B71 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		BE1B977F18422CB700818DD2 /* PixelSmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PixelSmile.png; sourceTree = "<group>"; };
 		BE1B978118422F6900818DD2 /* pixelProcess.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = pixelProcess.vsh; path = ../Classes/pixelProcess.vsh; sourceTree = "<group>"; };
 		BE1B978318422F8100818DD2 /* pixelProcess.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = pixelProcess.fsh; path = ../Classes/pixelProcess.fsh; sourceTree = "<group>"; };
 		BE973B2D18D30D8500591143 /* render.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = render.vsh; path = ../Classes/render.vsh; sourceTree = "<group>"; };
@@ -249,10 +245,8 @@
 			isa = PBXGroup;
 			children = (
 				BEDCE609188A815A003A2ADD /* Smile_128x128.png */,
-				BE1B977F18422CB700818DD2 /* PixelSmile.png */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
-				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
 				D41A0AD0160F154A004552AE /* Default-568h@2x.png */,
 				7855E0DF153FEF240059DD9A /* Default.png */,
 				D446FD6D16102124000ADA7B /* Default@2x.png */,
@@ -356,8 +350,6 @@
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				BEA5D8EF18D3921C003E10BE /* render.fsh in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
-				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
-				BE1B978018422CB700818DD2 /* PixelSmile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
